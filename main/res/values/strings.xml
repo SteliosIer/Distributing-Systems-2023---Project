@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DS2023</string>
+    <string name="welcome_msg">Welcome to our DS2023 Project</string>
+    <string name="btn_msg">Select which gpx file to send</string>
+    <string name="btn_stats">Show Statistics</string>
+    <string name="no_text">...</string>
+</resources>

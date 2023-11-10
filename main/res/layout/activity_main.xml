@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/welcome_msg"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/chooseFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_msg" />
+
+    <Button
+        android:id="@+id/displayStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/btn_stats" />
+
+    <TextView
+        android:id="@+id/stats_text"
+        android:layout_width = "match_parent"
+        android:layout_height="440dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/no_text"
+        android:textSize="18sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
