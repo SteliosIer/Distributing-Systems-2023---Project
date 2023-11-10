@@ -1,5 +1,5 @@
 # Distributing-Systems-2023---Project
-Project for the Operating Systems Course at Athens University of Economics and Business during spring of 2023.
+Project for the Distributing Systems Course at Athens University of Economics and Business during spring of 2023.
 
 GOAL
 Create an activity tracker app for android like Strava or MapMyRun, using java for backend and Android Studio for frontend.
